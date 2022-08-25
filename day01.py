@@ -27,3 +27,8 @@ def longest_value(dictionary):
 #     'color': 'green',
 #     'short': 'aaa'
 # }
+
+if __name__ == "__main__":
+    import os
+    import sys
+    print(f"Don't run this script directly. Usage: import {os.path.splitext(os.path.basename(sys.argv[0]))[0]}")
